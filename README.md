@@ -6,3 +6,7 @@ You can compress/resize one image or an entire directory. This tool can be used 
 
 Configuration options can be found here: https://github.com/GoogleChromeLabs/squoosh/tree/dev/libsquoosh#preprocessing-and-encoding-images
 
+The default configuration can be aligned at the config.json file.
+
+The path of the folder is stored in a DIR_NAME env variable.
+
