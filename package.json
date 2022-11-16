@@ -1,0 +1,33 @@
+{
+  "name": "image-optimizer",
+  "version": "1.0.0",
+  "description": "Image optimizer",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node -r dotenv/config index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJancsi/image-optimizer.git"
+  },
+  "keywords": [
+    "Image",
+    "optimize",
+    "squoosh"
+  ],
+  "author": "FJancsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FJancsi/image-optimizer/issues"
+  },
+  "homepage": "https://github.com/FJancsi/image-optimizer#readme",
+  "devDependencies": {
+    "rome": "^10.0.1"
+  },
+  "dependencies": {
+    "@squoosh/lib": "^0.4.0",
+    "dotenv": "^16.0.3"
+  }
+}
